@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html#formulario,
+body#formulario {
+    width: 100%;
+    background-color: rgb(217, 230, 230);
+    font-family: 'ARIEL';
+    height: 100%;
+}
+
+h1#tituloquest {
+    text-align: center;
+    font-size: 28pt;
+    font-family: Helvetica;
+    text-shadow: 5px 5px 5px rgb(33, 128, 134);
+    color: rgb(37, 37, 37);
+    font-family: 'ARIEL';
+}
+
+div#cx1 {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+
+div#cx2 {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div.perg {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgb(173, 198, 209);
+}
+
+div.inf1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgb(173, 198, 209);
+}
+
+img#quest1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset 2PX BLACK;
+}
+
+div#quest1 {
+    margin-top: 20px;
+    display: block;
+}
+
+div#textarea {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+div#cabecalho {
+    position: relative;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'ARIEL';
+    color: black;
+    font-size: 45px;
+}
+
+a#link {
+    font-size: 15pt;
+    margin-left: 15px;
+    float: left;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+div#rodape {
+    margin-top: 15px;
+    bottom: 0;
+    background-color: rgb(33, 128, 134);
+    width: 100%;
+    height: 70px;
+    border: solid 1px black;
+}
+
+div#geral {
+    border: 2px solid rgb(33, 128, 134);
+    margin: 0 auto;
+    width: 90%;
+    font-family: sans-serif;
+}
+
+.botao:hover {
+    background-color: rgb(33, 128, 134);
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    margin: 20px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#paragquest,
+h4 {
+    text-align: center;
+    font-size: 14pt;
+}
+
+h3#cx1,
+h3#cx2 {
+    text-align: center;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(87, 87, 87, 0.674);
+}
+
+nav#menu li {
+    font-family: 'ariel';
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline;
+    margin: 15px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+}
+
+nav#menu li:hover {
+    background-color: rgb(33, 128, 134);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header#cabecalho2 {
+    font-family: 'ARIEL';
+    color: rgb(80, 75, 75);
+    font-size: 60px;
+    height: 70px;
+    background-color: rgb(33, 128, 134);
+    border: solid 1px black;
+}
+
+#link {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#link2 {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+#link3 {
+    position: absolute;
+    top: 10px;
+    right: 145px;
+}
